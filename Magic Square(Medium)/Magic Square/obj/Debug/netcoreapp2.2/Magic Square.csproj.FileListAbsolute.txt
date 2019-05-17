@@ -1,0 +1,22 @@
+E:\Hacker Rank\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.deps.json
+E:\Hacker Rank\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.runtimeconfig.json
+E:\Hacker Rank\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.runtimeconfig.dev.json
+E:\Hacker Rank\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.dll
+E:\Hacker Rank\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.pdb
+E:\Hacker Rank\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.csprojAssemblyReference.cache
+E:\Hacker Rank\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.csproj.CoreCompileInputs.cache
+E:\Hacker Rank\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.AssemblyInfoInputs.cache
+E:\Hacker Rank\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.AssemblyInfo.cs
+E:\Hacker Rank\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.dll
+E:\Hacker Rank\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.pdb
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.deps.json
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.runtimeconfig.json
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.runtimeconfig.dev.json
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.dll
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\bin\Debug\netcoreapp2.2\Magic Square.pdb
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.csprojAssemblyReference.cache
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.csproj.CoreCompileInputs.cache
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.AssemblyInfoInputs.cache
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.AssemblyInfo.cs
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.dll
+E:\Hacker Rank\Magic Square(Medium)\Magic Square\obj\Debug\netcoreapp2.2\Magic Square.pdb
