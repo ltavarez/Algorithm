@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Hacker Rank\\Magic Square(Medium)\\Magic Square\\Magic Square.csproj",
+      "projectUniqueName": "E:\\Algorithms\\Magic Square(Medium)\\Magic Square\\Magic Square.csproj",
       "projectName": "Magic Square",
-      "projectPath": "E:\\Hacker Rank\\Magic Square(Medium)\\Magic Square\\Magic Square.csproj",
+      "projectPath": "E:\\Algorithms\\Magic Square(Medium)\\Magic Square\\Magic Square.csproj",
       "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "E:\\Hacker Rank\\Magic Square(Medium)\\Magic Square\\obj\\",
+      "outputPath": "E:\\Algorithms\\Magic Square(Medium)\\Magic Square\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -101,6 +101,7 @@ namespace Magic_Square
             // Calculate the magic number of the matriz.
             int[] ElementSums = new int[] { row1, row2, row3, column1, column2, column3, primaryDiagonal, secondaryDiagonal };
             int magicNumber = 0;
+            int coincidence = 0;
 
             for (int i = 0; i < ElementSums.Length; i++)
             {
@@ -109,6 +110,19 @@ namespace Magic_Square
                     magicNumber = ElementSums[i];
                 }
             }
+
+            for (int i = 0; i < ElementSums.Length; i++)
+            {
+                if (magicNumber == ElementSums[i])
+                {
+                    coincidence++;
+                }
+            }
+
+            if(coincidence < (ElementSums.Length / 2) && coincidence > 1)
+            {
+                magicNumber++;
+            }          
 
             // Change the matriz to convert in magic square
             if (m == n)
@@ -173,13 +187,27 @@ namespace Magic_Square
                         for (int i = 0; i < affectElement.Length; i++)
                         {
                             int actualElement = affectElement[i];
+
+                            if(actualElement == 0)
+                            {
+                                continue;
+                            }
+
                             int diffMagicNumber = magicNumber - actualElement;
                             bool canChange = true;
 
                             for (int j = 0; j < affectElement.Length; j++)
                             {
                                 int interactionElement = affectElement[j];
+
+                                if (interactionElement == 0)
+                                {
+                                    continue;
+                                }
+
                                 interactionElement += diffMagicNumber + accumulator;
+
+                                
 
                                 if (interactionElement > magicNumber)
                                 {
@@ -197,7 +225,13 @@ namespace Magic_Square
                         }
 
                         changesValue += accumulator;
-                        s[row, column] += accumulator;
+
+                        int changeNumber = s[row, column] + accumulator;
+
+                        if(changeNumber > 0 && changeNumber < 10)
+                        {
+                            s[row, column] += accumulator;
+                        }                        
                         // Recalculate the sum of diferent rows , columns and diagonals
                         CalculateMatrizValue(m, n, s);
 
@@ -214,15 +248,15 @@ namespace Magic_Square
 
             int[,] s = new int[3, 3];
 
-            s[0, 0] = 5;
-            s[0, 1] = 3;
-            s[0, 2] = 4;
-            s[1, 0] = 1;
-            s[1, 1] = 5;
-            s[1, 2] = 8;
-            s[2, 0] = 6;
-            s[2, 1] = 4;
-            s[2, 2] = 2;
+            s[0, 0] = 2;
+            s[0, 1] = 9;
+            s[0, 2] = 8;
+            s[1, 0] = 4;
+            s[1, 1] = 2;
+            s[1, 2] = 7;
+            s[2, 0] = 5;
+            s[2, 1] = 6;
+            s[2, 2] = 7;
 
             int result = formingMagicSquare(s);
 
